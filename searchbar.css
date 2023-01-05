@@ -1,7 +1,8 @@
 .search-wrapper{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
-    gap: 0.25rem;
+    gap: 0.28rem;
 }
 
 input{
@@ -11,7 +12,7 @@ input{
 .user-cards{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    gap: 0.25em;
+    gap: 0.28em;
     margin-top: 1rem;
 }
 
